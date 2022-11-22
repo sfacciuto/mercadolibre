@@ -1,13 +1,29 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 header {
   background-color: yellow;
+  padding: 10px;
+  display:flex;
+  justify-content: center;
+  
+}
+body > header > section {
+  width: 100%;
+  max-width: 1400px;
+  display:flex;
+  justify-content: space-between;
 }
 
 input {
   border: none;
   padding: 5px 10px;
+  height: 39px;
+}
+
+body > header > section > img {
+  width: 340px; 
 }
